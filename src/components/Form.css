@@ -1,0 +1,22 @@
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50vw;
+}
+
+.submit {
+    align-self: flex-end;
+    margin-top: 0.5rem;
+}
+
+.alone {
+    width: 25rem;
+}
+
+@media screen and (max-width: 800px) {
+    .form {
+        width: 90vw;
+    }
+}
